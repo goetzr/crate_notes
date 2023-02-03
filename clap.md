@@ -47,3 +47,5 @@
         ```
 
         The builder::args::Arg::value_name method is called for the **value_name** attribute. **NOTE:** Any builder::args::Arg method can be called from #[arg(...)] in your derived struct simply by specifying *method* = *value* for single argument methods or *method*(*args*...) for multiple arguments.
+* The crate authors don't show up by default. You must add a custom help template that displays them.
+    * ![Authors don't show up](./clap_author_not_shown.jpeg)
